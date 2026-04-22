@@ -130,7 +130,8 @@ class ModelTrainer:
         sort_col = sort_by if sort_by is not None else scoring_name
         results = self.results_.sort_values(sort_col, ascending=False)
 
-        print(f"\nСводная таблица результатов на тестовой выборке.")
+        print()
+        print("Сводная таблица результатов на тестовой выборке.")
         print(results[['model', 'roc_auc', 'pr_auc', 'f1_score', 'balanced_accuracy']]
               .to_string(index=False, float_format="%.4f"))
 
