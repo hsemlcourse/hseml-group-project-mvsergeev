@@ -1,9 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kOqwghv0)
-# ML Project — [Название проекта]
+# ML Project — Promotion Predictor
 
-**Студент:** [ФИО / Student ID]
+**Студент:** Сергеев Матвей Вячеславович
 
-**Группа:** [Группа]
+**Группа:** БИВ-235
 
 
 ## Оглавление
@@ -22,7 +22,7 @@
 
 **Задача:** [Классификация / Регрессия / Кластеризация / ...]
 
-**Датасет:** [Название и источник датасета]
+**Датасет:** https://www.kaggle.com/datasets/rohit8527kmr7518/employee-promtion-prediction
 
 **Целевая метрика:** [Accuracy / F1 / RMSE / ...]
 
@@ -44,8 +44,8 @@
 │   ├── images                  # Изображения для отчёта
 │   └── report.md               # Финальный отчёт
 ├── src
-│   ├── preprocessing.py        # Предобработка данных
-│   └── modeling.py             # Обучение и оценка моделей
+│   ├── data_preprocessor.py        # Предобработка данных
+│   └── machine_learner.py             # Обучение и оценка моделей
 ├── tests
 │   └── test.py                 # Тесты пайплайна
 ├── requirements.txt
@@ -57,8 +57,8 @@
 Этот блок замените способом запуска вашего сервиса.
 ```bash
 # 1. Клонировать репозиторий
-git clone <url>
-cd <repo-name>
+git clone https://github.com/hsemlcourse/hseml-group-project-mvsergeev
+cd hseml-group-project-mvsergeev
 
 # 2. Создать виртуальное окружение
 python -m venv .venv
